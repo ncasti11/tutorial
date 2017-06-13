@@ -12,6 +12,7 @@
 
 import math
 import sys
+import random
 
 # ------------------------------------------
 #
@@ -48,4 +49,8 @@ if __name__ == '__main__':
 	
 	res = my_function2(x)
 	print(res)
+	
+	numbers = [3,5,7,2]
+	print(random.choice.numbers)
+	
 
