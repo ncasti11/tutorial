@@ -40,12 +40,16 @@ def my_function1(a, b):
 # ---------------------------------------------------------------
 if __name__ == '__main__':
 	
-	x = sys.argv[1]
-	y = sys.argv[2]
+	if (sys.argv) >= 3: 
+		x = sys.argv[1]
+		y = sys.argv[2]
 	
-	res = my_function1(x,y)
-	print(res)
+		res = my_function1(x,y)
+		print(res)
 	
-	res = my_function2(x)
-	print(res)
+		res = my_function2(x)
+		print(res)
+	else: 
+		print("Call the program with 2 arguments")
+
 
