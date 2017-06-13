@@ -16,9 +16,7 @@
 #
 # ------------------------------------------
 def my_function1(a, b):
-    result = a
-    for i in range(0, b):
-        result = result * a
+	result = a ** b
     return result
 
 # ---------------------------------------------------------------
