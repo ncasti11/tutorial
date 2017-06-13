@@ -10,6 +10,17 @@
 # but it will execute nothing yet.
 # --------------------------------------------------------
 
+import math
+
+# ------------------------------------------
+#
+# FUNCTION my_function2
+#
+# ------------------------------------------
+def my_function2(a):
+	res = math.sqrt(a)
+	return res
+
 # ------------------------------------------
 #
 # FUNCTION my_function1
@@ -29,6 +40,10 @@ def my_function1(a, b):
 if __name__ == '__main__':
 	x = 9
 	y = 8 #
+	
 	res = my_function1(x,y)
+	print(res)
+	
+	res = my_function2(x)
 	print(res)
 
